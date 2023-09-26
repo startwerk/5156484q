@@ -1,0 +1,80 @@
+    body, h1, h2, p, ul, li, table {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: snow;
+    }
+
+    header {
+        text-align: center;
+        background-color: darkturquoise;
+        color: #fff;
+        padding: 25px;
+    }
+
+    nav ul {
+        margin-top: 25px;
+        margin-bottom: 0;
+        padding: 0;
+        text-align: center; /* Center align the navigation links */
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        padding: 5px 10px;
+        border: 1px solid #333;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+        background-color: antiquewhite; /* Background color on hover */
+        color: white; /* Text color on hover */
+    }
+
+
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid moccasin;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #0077b6;
+        color: #fff;
+        padding: 10px;
+    }
